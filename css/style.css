@@ -1,0 +1,78 @@
+/* Định dạng toàn bộ trang */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Định dạng phần tiêu đề */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+
+/* Định dạng phần tiêu đề h1 */
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Định dạng phần tiêu đề h1 trong thẻ div có id "branding" */
+#branding h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Định dạng phần tiêu đề h1 trong thẻ div có class "highlight" */
+.highlight {
+  color: #ff0;
+}
+
+/* Định dạng phần danh sách các liên kết */
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Định dạng các mục liên kết */
+header li {
+  margin: 0 10px;
+}
+
+/* Định dạng các liên kết */
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Định dạng phần tiêu đề của mỗi phần */
+section h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Định dạng các hộp chứa nội dung trong mỗi phần */
+.box {
+  border: 1px solid #333;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Định dạng các tiêu đề của hộp chứa nội dung */
+.box h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Định dạng phần chân trang */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
